@@ -1,1 +1,1 @@
-displayCurrentWeather();
+displayCurrentWeather("București");
