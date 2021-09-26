@@ -9,6 +9,8 @@ function updateCurrentCity(city) {
 }
 
 function updateWeather(city) {
+  // Actualizam orasul din localStorage.
+  localStorage.setItem("city", city);
   // Actualizam orasul afisat pe ecran.
   updateCurrentCity(city);
   // Reafisam vremea curenta, pentru noul oras.
