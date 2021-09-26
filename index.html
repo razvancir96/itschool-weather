@@ -28,7 +28,7 @@
     <main>
       <section class="choose-location py-5">
         <div class="container">
-          <h2 class="text-primary text-center mb-4">Alege-ți locația</h2>
+          <h2 class="text-primary text-center mb-5">Alege-ți locația</h2>
           <p class="text-center fs-6">
             Te pregătești să mergi la curs și vrei să vezi cu ce să te îmbraci?
             Îți venim în ajutor! Alege mai jos una dintre locațiile IT School și
@@ -48,21 +48,27 @@
               Alege un alt oraș
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li><button class="dropdown-item">București</button></li>
-              <li><button class="dropdown-item">Timișoara</button></li>
-              <li><button class="dropdown-item">Oradea</button></li>
+              <li>
+                <button class="dropdown-item bucharest">București</button>
+              </li>
+              <li>
+                <button class="dropdown-item timisoara">Timișoara</button>
+              </li>
+              <li><button class="dropdown-item oradea">Oradea</button></li>
             </ul>
           </div>
         </div>
       </section>
-      <section class="current-weather py-5 bg-secondary">
+      <section class="py-5 bg-secondary">
         <div class="container">
-          <h2 class="text-primary text-center mb-4">Vremea curentă</h2>
+          <h2 class="text-primary text-center mb-5">Vremea curentă</h2>
+          <div class="current-weather"></div>
         </div>
       </section>
-      <section class="weather-forecast py-5">
+      <section class="py-5">
         <div class="container">
-          <h2 class="text-primary text-center mb-4">Prognoză pe 5 zile</h2>
+          <h2 class="text-primary text-center mb-5">Prognoză pe 5 zile</h2>
+          <div class="weather-forecast"></div>
         </div>
       </section>
     </main>
