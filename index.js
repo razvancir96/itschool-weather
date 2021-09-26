@@ -9,4 +9,7 @@ if (!currentCity) {
 
 // Actualizam orasul afisat pe ecran.
 currentCityTag.innerHTML = currentCity;
+
+// Afisam vremea curenta si predictia pe 5 zile.
 displayCurrentWeather(currentCity);
+displayWeatherForecast(currentCity);

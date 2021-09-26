@@ -57,3 +57,8 @@ main {
 header {
   height: 30vh;
 }
+
+/* Dorim ca toti copii directi din .weather-forecast-box sa aiba aceeasi dimensiune. */
+.weather-forecast-box > * {
+  flex: 1;
+}

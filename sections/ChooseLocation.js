@@ -15,6 +15,8 @@ function updateWeather(city) {
   updateCurrentCity(city);
   // Reafisam vremea curenta, pentru noul oras.
   displayCurrentWeather(city);
+  // Reafisam prognoza pe 5 zile, pentru noul oras.
+  displayWeatherForecast(city);
 }
 
 // Adauagam event listenerii pe butoanele din dropdown.
