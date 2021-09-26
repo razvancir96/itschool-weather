@@ -62,3 +62,24 @@ header {
 .weather-forecast-box > * {
   flex: 1;
 }
+
+/* Adaugam stilizarile de mobile. */
+@media (max-width: 576px) {
+  .current-weather {
+    text-align: center;
+  }
+
+  .current-weather img {
+    width: 75px;
+    height: auto;
+  }
+
+  .weather-forecast-box img {
+    width: 50px;
+    height: auto;
+  }
+
+  .weather-forecast-box .real-feel {
+    display: none;
+  }
+}
