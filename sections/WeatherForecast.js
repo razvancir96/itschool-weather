@@ -37,7 +37,7 @@ function displayWeatherForecast(city) {
         // Afisam ziua saptamanii pe ecran.
         weatherForecastContainer.innerHTML += `<h3 class="text-primary">${key}</h3>`;
         // Pentru fiecare zi a saptamanii, extragem predictiile asociate si iteram prin ele.
-        days = daysMap[key];
+        let days = daysMap[key];
         days.forEach((element) => {
           // Pentru fiecare element (predictie), extragem datele de interes.
           const { dt, main, weather } = element;
